@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <!-- board -->
+  <rect x="40" y="30" width="240" height="360" rx="10" fill="#f1f1f1" stroke="#222" stroke-width="2"/>
+  <rect x="120" y="18" width="80" height="34" rx="5" fill="#ddd" stroke="#222" stroke-width="2"/>
+  <g fill="#222">
+    <circle cx="62" cy="90" r="5"/><circle cx="62" cy="128" r="5"/><circle cx="62" cy="166" r="5"/><circle cx="62" cy="204" r="5"/>
+    <circle cx="62" cy="242" r="5"/><circle cx="62" cy="280" r="5"/><circle cx="62" cy="318" r="5"/><circle cx="62" cy="356" r="5"/>
+    <circle cx="258" cy="90" r="5"/><circle cx="258" cy="128" r="5"/><circle cx="258" cy="166" r="5"/><circle cx="258" cy="204" r="5"/>
+    <circle cx="258" cy="242" r="5"/><circle cx="258" cy="280" r="5"/><circle cx="258" cy="318" r="5"/><circle cx="258" cy="356" r="5"/>
+  </g>
+  <!-- strip -->
+  <rect x="100" y="71" width="120" height="304" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <line x1="160" y1="71" x2="160" y2="375" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+  <g font-size="14" font-weight="bold" fill="#222" text-anchor="middle">
+    <text x="130" y="95">3V3</text><text x="130" y="133">EN</text><text x="130" y="171">36</text><text x="130" y="209">39</text>
+    <text x="130" y="247">34</text><text x="130" y="285">35</text><text x="130" y="323">32</text><text x="130" y="361">GND</text>
+    <text x="190" y="95">GND</text><text x="190" y="133">23</text><text x="190" y="171">22</text><text x="190" y="209">TX0</text>
+    <text x="190" y="247">RX0</text><text x="190" y="285">21</text><text x="190" y="323">GND</text><text x="190" y="361">19</text>
+  </g>
+  <!-- callouts -->
+  <g font-size="15" fill="#222">
+    <text x="330" y="64" font-weight="bold">One label, laid on the module</text>
+    <text x="330" y="100">Left column  = the left pin row</text>
+    <text x="330" y="124">Right column = the right pin row</text>
+    <text x="330" y="160" fill="#555">Each cell is exactly one pin pitch</text>
+    <text x="330" y="182" fill="#555">(2.54 mm = 18 printer dots), so a</text>
+    <text x="330" y="204" fill="#555">label sits on its own pin.</text>
+    <text x="330" y="254" font-weight="bold">Flip the board over?</text>
+    <text x="330" y="278">Set "Board side" to Bottom and the two</text>
+    <text x="330" y="300">columns swap, as if you turned it over.</text>
+    <text x="330" y="340" fill="#555">Dashed centre line = fold / guide line.</text>
+    <text x="330" y="362" fill="#555">Black cells = ground, boxed = power rails.</text>
+  </g>
+  <text x="40" y="415" font-size="13" fill="#666">GPIO36 prints as "36" etc. (label length limit); full names stay in your table.</text>
+</svg>

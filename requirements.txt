@@ -1,0 +1,4 @@
+streamlit>=1.50
+pillow>=10
+pandas>=2
+packbits>=0.5

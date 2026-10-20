@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <defs>
+    <marker id="h" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#d33"/></marker>
+    <marker id="t" markerWidth="9" markerHeight="9" refX="1" refY="4.5" orient="auto-start-reverse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#d33"/></marker>
+  </defs>
+  <!-- tape -->
+  <rect x="90" y="60" width="520" height="150" fill="#fafafa" stroke="#222" stroke-width="2"/>
+  <rect x="90" y="84" width="520" height="102" fill="#ffffff" stroke="#999" stroke-dasharray="5 4"/>
+  <text x="100" y="78" font-size="12" fill="#888">unusable edge</text>
+  <text x="100" y="204" font-size="12" fill="#888">unusable edge</text>
+  <text x="350" y="104" font-size="13" fill="#555" text-anchor="middle">printable area: 70 dots (9.9 mm) on 12 mm tape</text>
+  <!-- pixel zoom: an "O", 6 dots tall (enlarged) -->
+  <g fill="#222">
+    <rect x="312" y="112" width="12" height="12"/><rect x="324" y="112" width="12" height="12"/>
+    <rect x="300" y="124" width="12" height="12"/><rect x="336" y="124" width="12" height="12"/>
+    <rect x="300" y="136" width="12" height="12"/><rect x="336" y="136" width="12" height="12"/>
+    <rect x="300" y="148" width="12" height="12"/><rect x="336" y="148" width="12" height="12"/>
+    <rect x="300" y="160" width="12" height="12"/><rect x="336" y="160" width="12" height="12"/>
+    <rect x="312" y="172" width="12" height="12"/><rect x="324" y="172" width="12" height="12"/>
+  </g>
+  <text x="372" y="150" font-size="13" fill="#555">a letter is only about</text>
+  <text x="372" y="168" font-size="13" fill="#555">6 dots tall (enlarged here)</text>
+  <!-- across arrow -->
+  <path d="M64 84 V186" stroke="#d33" stroke-width="2" marker-start="url(#t)" marker-end="url(#h)" fill="none"/>
+  <text transform="translate(38 135) rotate(-90)" font-size="14" fill="#d33" text-anchor="middle">ACROSS the tape</text>
+  <text transform="translate(22 135) rotate(-90)" font-size="13" fill="#d33" text-anchor="middle">always 180 dpi</text>
+  <!-- along arrow -->
+  <path d="M90 240 H610" stroke="#d33" stroke-width="2" marker-end="url(#h)" fill="none"/>
+  <text x="350" y="262" font-size="14" fill="#d33" text-anchor="middle">ALONG the feed (tape moves this way)</text>
+  <text x="350" y="282" font-size="13" fill="#d33" text-anchor="middle">180 dpi standard  /  360 dpi in "high resolution" mode</text>
+  <text x="380" y="316" font-size="13" fill="#555" text-anchor="middle">So text that runs across the tape has coarse width but, in high-res, fine height.</text>
+</svg>

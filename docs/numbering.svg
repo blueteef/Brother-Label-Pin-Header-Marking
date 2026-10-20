@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="270" viewBox="0 0 760 270" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="270" fill="#ffffff"/>
+  <g fill="none" stroke="#222" stroke-width="2">
+    <!-- DIP chip -->
+    <path d="M110 40 H190 V230 H110 Z"/>
+    <path d="M135 40 a15 15 0 0 0 30 0"/>
+    <path d="M80 75 H110 M80 115 H110 M80 155 H110 M80 195 H110 M190 75 H220 M190 115 H220 M190 155 H220 M190 195 H220" stroke-width="3"/>
+    <!-- MCU board -->
+    <rect x="460" y="34" width="120" height="200" rx="8"/>
+    <rect x="495" y="22" width="50" height="26" rx="4"/>
+  </g>
+  <circle cx="125" cy="58" r="4" fill="#d33"/>
+  <g fill="#222" font-size="17" text-anchor="end">
+    <text x="72" y="81">1</text><text x="72" y="121">2</text><text x="72" y="161">3</text><text x="72" y="201">4</text>
+    <text x="432" y="92">1</text><text x="432" y="132">2</text><text x="432" y="172">3</text><text x="432" y="212">4</text>
+  </g>
+  <g fill="#222" font-size="17">
+    <text x="228" y="81">8</text><text x="228" y="121">7</text><text x="228" y="161">6</text><text x="228" y="201">5</text>
+    <text x="608" y="92">8</text><text x="608" y="132">7</text><text x="608" y="172">6</text><text x="608" y="212">5</text>
+  </g>
+  <g fill="#222">
+    <circle cx="474" cy="87" r="5"/><circle cx="474" cy="127" r="5"/><circle cx="474" cy="167" r="5"/><circle cx="474" cy="207" r="5"/>
+    <circle cx="566" cy="87" r="5"/><circle cx="566" cy="127" r="5"/><circle cx="566" cy="167" r="5"/><circle cx="566" cy="207" r="5"/>
+  </g>
+  <circle cx="474" cy="87" r="9" fill="none" stroke="#d33" stroke-width="2"/>
+  <g fill="#222" font-size="15" text-anchor="middle">
+    <text x="150" y="258">DIP chip, notch up</text>
+    <text x="520" y="258">MCU board, USB / antenna up</text>
+    <text x="520" y="124" font-size="13" fill="#666">module</text>
+  </g>
+  <g fill="#666" font-size="13" text-anchor="middle">
+    <text x="338" y="140">pin 1 = top-left</text>
+    <text x="338" y="158">(red circle)</text>
+    <text x="338" y="180">count down the left,</text>
+    <text x="338" y="198">then up the right</text>
+  </g>
+  <g stroke="#d33" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M45 60 V210" stroke-dasharray="5 4"/>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#d33"/></marker></defs>
+</svg>
